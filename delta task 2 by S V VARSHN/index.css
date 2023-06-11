@@ -1,0 +1,28 @@
+body{
+    display:flex;
+    background-color: rgba(13, 13, 249, 0.475);
+    flex-direction: column;
+    flex-wrap: no-wrap;
+   /*margin: 20px;*/
+    height: 35vh;   
+    width:50vw;
+}
+canvas{
+    background-image:url("background.jpg");
+    border:3px solid beige;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+button{width:35px;border-radius: 5px;}
+h2{text-align: center;}
+.game-details{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    height:30px;width:100%;background-color:rgb(176, 135, 135);
+}
+.scorebox{display:flex}
+#game{
+    margin:20px;
+};
